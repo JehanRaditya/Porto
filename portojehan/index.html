@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jehan Raditya | Web Developer & Creative Portfolio</title>
+
+    <!-- Meta SEO & Social -->
+    <meta
+      name="description"
+      content="Portofolio resmi Jehan Raditya - Mahasiswa & Web Developer asal Tangerang. Menampilkan karya web, photography, desain poster, dan seni kreatif."
+    />
+    <meta name="author" content="Jehan Raditya" />
+    <meta name="theme-color" content="#0284c7" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/fotochibi.png" />
+
+    <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Top Announcement / Tech Ribbon -->
+    <div class="ticker-bar" aria-label="Ticker Pengumuman">
+      <div class="ticker-track">
+        <span class="ticker-item">✨ Welcome to Jehan Raditya's Portfolio</span>
+        <span class="ticker-dot">•</span>
+        <span class="ticker-item">🚀 Aspiring Software Engineer</span>
+        <span class="ticker-dot">•</span>
+        <span class="ticker-item">💻 Front-End Development</span>
+        <span class="ticker-dot">•</span>
+        <span class="ticker-item">☕ Powered by Coffee & Curiosity</span>
+        <span class="ticker-dot">•</span>
+        <span class="ticker-item">📸 Visual Storyteller & Photography</span>
+        <span class="ticker-dot">•</span>
+        <span class="ticker-item">🎨 Creative Art & Poster Design</span>
+        <span class="ticker-dot">•</span>
+        <span class="ticker-item">🔥 Always Learning, Always Building</span>
+        <span class="ticker-dot">•</span>
+        <!-- Duplikat untuk seamless loop -->
+        <span class="ticker-item">✨ Welcome to Jehan Raditya's Portfolio</span>
+        <span class="ticker-dot">•</span>
+        <span class="ticker-item">🚀 Aspiring Software Engineer</span>
+        <span class="ticker-dot">•</span>
+        <span class="ticker-item">💻 Front-End Development</span>
+        <span class="ticker-dot">•</span>
+        <span class="ticker-item">☕ Powered by Coffee & Curiosity</span>
+        <span class="ticker-dot">•</span>
+        <span class="ticker-item">📸 Visual Storyteller & Photography</span>
+        <span class="ticker-dot">•</span>
+        <span class="ticker-item">🎨 Creative Art & Poster Design</span>
+        <span class="ticker-dot">•</span>
+        <span class="ticker-item">🔥 Always Learning, Always Building</span>
+        <span class="ticker-dot">•</span>
+      </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header id="main-header">
+      <div class="nav-container">
+        <!-- Logo Brand -->
+        <a href="#home" class="logo-brand" aria-label="Beranda Jehan">
+          <div class="logo-avatar">
+            <img
+              src="img/fotochibi.png"
+              alt="Avatar Jehan"
+              width="44"
+              height="44"
+            />
+            <span class="status-indicator" title="Online & Aktif"></span>
+          </div>
+          <div class="logo-text">
+            <span class="logo-name">Jehan Raditya</span>
+            <span class="logo-tag">&lt;WebDev /&gt;</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="nav-menu" id="nav-menu" aria-label="Menu Utama">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">Tentang</a></li>
+            <li><a href="#skills" class="nav-link">Keahlian</a></li>
+            <li><a href="#projects" class="nav-link">Karya & Proyek</a></li>
+            <li><a href="#journey" class="nav-link">Perjalanan</a></li>
+            <li><a href="#contact" class="nav-link">Kontak</a></li>
+          </ul>
+        </nav>
+
+        <!-- Right Header Actions -->
+        <div class="header-actions">
+          <!-- Dark/Light Theme Toggle -->
+          <button
+            id="theme-toggle"
+            class="icon-btn theme-toggle"
+            aria-label="Ganti Tema Gelap/Terang"
+            title="Ganti Tema"
+          >
+            <svg
+              class="sun-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg
+              class="moon-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button
+            id="hamburger-btn"
+            class="hamburger-btn"
+            aria-label="Buka Menu Navigasi"
+            aria-expanded="false"
+          >
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-container">
+          <!-- Hero Text Content -->
+          <div class="hero-content reveal">
+            <div class="badge-pill">
+              <span class="pulsing-dot"></span>
+              <span>Terbuka untuk Kolaborasi &amp; Proyek Baru</span>
+            </div>
+
+            <h1 class="hero-title">
+              Halo, Saya <span class="gradient-text">Jehan Raditya</span> 👋
+            </h1>
+
+            <div class="typing-container">
+              <span class="typing-prefix">Fokus: </span>
+              <span id="typewriter" class="typing-text"></span>
+              <span class="cursor">&nbsp;</span>
+            </div>
+
+            <p class="hero-description">
+              Mahasiswa asal Tangerang yang sedang giat mendalami dunia
+              <strong>Web Development</strong> dan desain kreatif. Tempat di
+              mana baris kode, kreativitas visual, dan secangkir kopi berpadu
+              menjadi karya nyata. ☕💻✨
+            </p>
+
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">
+                <span>Jelajahi Karya Saya</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <span>Hubungi Saya</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  ></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+
+            <!-- Quick Social & Stat Links -->
+            <div class="hero-socials">
+              <span class="social-label">Ikuti &amp; Terhubung:</span>
+              <div class="social-icons">
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  title="GitHub"
+                  aria-label="GitHub"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  title="Instagram"
+                  aria-label="Instagram"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect
+                      x="2"
+                      y="2"
+                      width="20"
+                      height="20"
+                      rx="5"
+                      ry="5"
+                    ></rect>
+                    <path
+                      d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                    ></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </a>
+                <a
+                  href="mailto:Jehanraditya03@gmail.com"
+                  class="social-link"
+                  title="Kirim Email"
+                  aria-label="Email"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    ></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Image & Interactive Card -->
+          <div class="hero-visual reveal">
+            <div class="profile-card-wrapper">
+              <div class="profile-card">
+                <div class="profile-image-container">
+                  <img
+                    src="img/moon.jpg"
+                    alt="Foto Profil Jehan Raditya"
+                    class="profile-img"
+                  />
+                </div>
+              </div>
+
+              <!-- Floating Micro Badges -->
+              <div class="floating-badge badge-top-left">
+                <span class="badge-icon">☕</span>
+                <span class="badge-text">Night Owl &amp; Coffee</span>
+              </div>
+              <div class="floating-badge badge-bottom-right">
+                <span class="badge-icon">💻</span>
+                <span class="badge-text">Web Development</span>
+              </div>
+              <div class="floating-badge badge-bottom-left">
+                <span class="badge-icon">📸</span>
+                <span class="badge-text">Visual Enthusiast</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section about-section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">KENAL LEBIH DEKAT</span>
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="section-divider"></div>
+          </div>
+
+          <div class="about-grid">
+            <!-- Left Info Card -->
+            <div class="about-card-info reveal">
+              <div class="chibi-avatar-wrapper">
+                <img
+                  src="img/fotochibi.png"
+                  alt="Chibi Jehan"
+                  class="chibi-avatar"
+                />
+              </div>
+              <h3 class="about-name">Jehan Raditya</h3>
+              <p class="about-subtitle">Aspiring Web Developer &amp; Creator</p>
+
+              <div class="quick-facts">
+                <div class="fact-item">
+                  <div class="fact-icon">📍</div>
+                  <div class="fact-content">
+                    <span class="fact-label">Lokasi</span>
+                    <span class="fact-val">Tangerang, Indonesia</span>
+                  </div>
+                </div>
+                <div class="fact-item">
+                  <div class="fact-icon">🎓</div>
+                  <div class="fact-content">
+                    <span class="fact-label">Status</span>
+                    <span class="fact-val">Mahasiswa &amp; Tech Learner</span>
+                  </div>
+                </div>
+                <div class="fact-item">
+                  <div class="fact-icon">💼</div>
+                  <div class="fact-content">
+                    <span class="fact-label">Fokus</span>
+                    <span class="fact-val">Front-End &amp; UI Design</span>
+                  </div>
+                </div>
+                <div class="fact-item">
+                  <div class="fact-icon">☕</div>
+                  <div class="fact-content">
+                    <span class="fact-label">Kebiasaan</span>
+                    <span class="fact-val"
+                      >Ngoding ditemani secangkir kopi</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Bio & Values -->
+            <div class="about-narrative reveal">
+              <div class="bio-card">
+                <p class="bio-lead">
+                  "Bagi saya, teknologi bukan cuma soal baris kode, tapi tentang
+                  membangun koneksi, memecahkan masalah, dan menciptakan
+                  pengalaman digital yang bermanfaat."
+                </p>
+                <p class="bio-text">
+                  Saya adalah seorang mahasiswa asal Tangerang yang sedang giat
+                  mengeksplorasi dunia <strong>Web Development</strong> dengan
+                  rasa penasaran yang tinggi dan semangat yang membara.
+                </p>
+                <p class="bio-text">
+                  Selain hobi ngoding malam-malam ditemani deru kipas laptop dan
+                  kopi hangat, saya sangat menyukai kerja sama tim. Saya percaya
+                  komunikasi yang hangat dan saling menghargai mampu menyatukan
+                  berbagai ide kreatif menjadi solusi yang luar biasa.
+                </p>
+              </div>
+
+              <!-- Value Pillars -->
+              <div class="values-grid">
+                <div class="value-card">
+                  <div class="value-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="16 18 22 12 16 6"></polyline>
+                      <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                  </div>
+                  <div class="value-info">
+                    <h4>Front-End Development</h4>
+                    <p>
+                      Membangun struktur website yang rapi, semantik, responsif,
+                      dan interaktif menggunakan HTML, CSS, dan JavaScript.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="value-card">
+                  <div class="value-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"
+                      ></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
+                  </div>
+                  <div class="value-info">
+                    <h4>Kolaborasi Tim</h4>
+                    <p>
+                      Senang bertukar pikiran, terbuka pada masukan, dan siap
+                      bekerja sama menyelesaikan tantangan bersama tim.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="value-card">
+                  <div class="value-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                      <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                      <path d="M2 2l7.586 7.586"></path>
+                      <circle cx="11" cy="11" r="2"></circle>
+                    </svg>
+                  </div>
+                  <div class="value-info">
+                    <h4>Eksplorasi Kreatif</h4>
+                    <p>
+                      Menyeimbangkan logika coding dengan photography, melukis,
+                      dan pembuatan poster grafis untuk estetika visual yang
+                      kuat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section skills-section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">TECH STACK &amp; MINAT</span>
+            <h2 class="section-title">Keahlian &amp; Perkakas</h2>
+            <p class="section-subtitle">
+              Teknologi dan perangkat kreatif yang saya gunakan dalam belajar
+              dan berkarya
+            </p>
+            <div class="section-divider"></div>
+          </div>
+
+          <div class="skills-grid reveal">
+            <!-- Skill Category: Web Dev -->
+            <div class="skill-category-card">
+              <div class="cat-header">
+                <div class="cat-icon-badge dev">💻</div>
+                <h3 class="cat-title">Web Development</h3>
+              </div>
+              <p class="cat-desc">
+                Fondasi pengembangan website modern &amp; responsif
+              </p>
+
+              <div class="skill-chips">
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">HTML5 Semantics</span>
+                </div>
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">CSS3 &amp; Flexbox / Grid</span>
+                </div>
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">JavaScript (ES6+)</span>
+                </div>
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">Responsive Web Design</span>
+                </div>
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">DOM Manipulation</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill Category: Design & Creativity -->
+            <div class="skill-category-card">
+              <div class="cat-header">
+                <div class="cat-icon-badge design">🎨</div>
+                <h3 class="cat-title">Desain &amp; Kreativitas</h3>
+              </div>
+              <p class="cat-desc">
+                Visualisasi estetika antarmuka dan karya grafis
+              </p>
+
+              <div class="skill-chips">
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">UI/UX Design Basics</span>
+                </div>
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">Poster &amp; Banner Design</span>
+                </div>
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">Melukis &amp; Sketsa Seni</span>
+                </div>
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">Color Theory &amp; Layout</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill Category: Photography & Media -->
+            <div class="skill-category-card">
+              <div class="cat-header">
+                <div class="cat-icon-badge photo">📸</div>
+                <h3 class="cat-title">photography &amp; Media</h3>
+              </div>
+              <p class="cat-desc">
+                Menangkap cerita dan keindahan momen visual
+              </p>
+
+              <div class="skill-chips">
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">Landscape &amp; Street Photo</span>
+                </div>
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">Lighting &amp; Framing</span>
+                </div>
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">Photo Retouching</span>
+                </div>
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">YouTube Media Asset</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skill Category: Tools & Workflow -->
+            <div class="skill-category-card">
+              <div class="cat-header">
+                <div class="cat-icon-badge tools">⚙️</div>
+                <h3 class="cat-title">Perkakas &amp; Kerja Tim</h3>
+              </div>
+              <p class="cat-desc">
+                Alat pendukung produktivitas dan kolaborasi
+              </p>
+
+              <div class="skill-chips">
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">Git &amp; GitHub</span>
+                </div>
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">VS Code</span>
+                </div>
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">Komunikasi Tim</span>
+                </div>
+                <div class="skill-chip">
+                  <span class="chip-dot"></span>
+                  <span class="chip-name">Problem Solving</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section projects-section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">PORTOFOLIO PILIHAN</span>
+            <h2 class="section-title">Karya &amp; Proyek</h2>
+            <p class="section-subtitle">
+              Kumpulan karya photography, desain grafis, lukisan, dan momen
+              kebersamaan
+            </p>
+            <div class="section-divider"></div>
+          </div>
+
+          <!-- Filter Tabs -->
+          <div class="filter-container reveal">
+            <button class="filter-btn active" data-filter="all">
+              Semua Karya
+            </button>
+            <button class="filter-btn" data-filter="photography">
+              photography
+            </button>
+            <button class="filter-btn" data-filter="creative">
+              Seni &amp; Desain
+            </button>
+            <button class="filter-btn" data-filter="community">
+              Kebersamaan
+            </button>
+          </div>
+
+          <!-- Projects Grid -->
+          <div class="projects-grid" id="projects-grid">
+            <!-- Project 1: Pemandangan (Photography) -->
+            <article class="project-card reveal" data-category="photography">
+              <div class="project-media-wrapper">
+                <img
+                  src="img/mon.jpg"
+                  alt="Cahaya di Jalanan Malam"
+                  class="project-media"
+                  loading="lazy"
+                />
+                <span class="card-badge">photography</span>
+                <button
+                  class="zoom-btn"
+                  title="Perbesar Gambar"
+                  data-full="img/pemandangan.jpg"
+                  data-title="Cahaya Malam"
+                  data-desc="Cahaya yang menerangi jalanan kala kegelapan tiba."
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                </button>
+              </div>
+              <div class="project-details">
+                <div class="project-meta">
+                  <span class="meta-tag">Street Photography</span>
+                </div>
+                <h3 class="project-heading">Cahaya di Kala Malam</h3>
+                <blockquote class="project-quote">
+                  "Cahaya yang menerangi jalanan kala kegelapan tiba."
+                </blockquote>
+              </div>
+            </article>
+
+            <!-- Project 2: Lukisan (Creative) -->
+            <article class="project-card reveal" data-category="creative">
+              <div class="project-media-wrapper">
+                <img
+                  src="img/Lukisan.png"
+                  alt="Lukisan Pohon"
+                  class="project-media"
+                  loading="lazy"
+                />
+                <span class="card-badge">Melukis &amp; Seni</span>
+                <button
+                  class="zoom-btn"
+                  title="Perbesar Gambar"
+                  data-full="img/Lukisan.png"
+                  data-title="Pohon Kesendirian"
+                  data-desc="Lukisan sebuah pohon yang tertanam sendiri di halaman sekolah semasa SMA."
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                </button>
+              </div>
+              <div class="project-details">
+                <div class="project-meta">
+                  <span class="meta-tag">Art &amp; Painting</span>
+                </div>
+                <h3 class="project-heading">Pohon Kesendirian</h3>
+                <blockquote class="project-quote">
+                  "Lukisan sebuah pohon yang tertanam sendiri di halaman sekolah
+                  semasa SMA."
+                </blockquote>
+              </div>
+            </article>
+
+            <!-- Project 3: Pantai (Photography) -->
+            <article class="project-card reveal" data-category="photography">
+              <div class="project-media-wrapper">
+                <img
+                  src="img/pantai.jpg"
+                  alt="Pantai Selatan Sore Hari"
+                  class="project-media"
+                  loading="lazy"
+                />
+                <span class="card-badge">photography</span>
+                <button
+                  class="zoom-btn"
+                  title="Perbesar Gambar"
+                  data-full="img/pantai.jpg"
+                  data-title="Senja Pantai Selatan"
+                  data-desc="Pemandangan indah pantai selatan di sore hari saat matahari terbenam."
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                </button>
+              </div>
+              <div class="project-details">
+                <div class="project-meta">
+                  <span class="meta-tag">Nature &amp; Ocean</span>
+                </div>
+                <h3 class="project-heading">Senja di Pantai Selatan</h3>
+                <blockquote class="project-quote">
+                  "Pemandangan indah pantai selatan di sore hari saat matahari
+                  terbenam."
+                </blockquote>
+              </div>
+            </article>
+
+            <!-- Project 4: Poster (Creative) -->
+            <article class="project-card reveal" data-category="creative">
+              <div class="project-media-wrapper">
+                <img
+                  src="img/Jacky.jpg"
+                  alt="Desain Poster Edukasi"
+                  class="project-media"
+                  loading="lazy"
+                />
+                <span class="card-badge">Desain Grafis</span>
+                <button
+                  class="zoom-btn"
+                  title="Perbesar Gambar"
+                  data-full="img/Poster.jpg"
+                  data-title="Poster Edukasi"
+                  data-desc="Karya poster digital bernuansa pesan moral: Sebelum halal tetaplah untuk menjaga (17:32)."
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                </button>
+              </div>
+              <div class="project-details">
+                <div class="project-meta">
+                  <span class="meta-tag">Digital Poster</span>
+                </div>
+                <h3 class="project-heading">Poster Pengingat Diri</h3>
+                <blockquote class="project-quote">
+                  "Sebelum halal tetaplah untuk menjaga 17:32."
+                </blockquote>
+              </div>
+            </article>
+
+            <!-- Project 5: Sunset (Photography) -->
+            <article class="project-card reveal" data-category="photography">
+              <div class="project-media-wrapper">
+                <img
+                  src="img/Sunset.jpg"
+                  alt="Sunset Perjalanan Mudik"
+                  class="project-media"
+                  loading="lazy"
+                />
+                <span class="card-badge">photography</span>
+                <button
+                  class="zoom-btn"
+                  title="Perbesar Gambar"
+                  data-full="img/Sunset.jpg"
+                  data-title="Sunset Mudik"
+                  data-desc="Kehangatan matahari terbenam yang menemani perjalanan saat mudik."
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                </button>
+              </div>
+              <div class="project-details">
+                <div class="project-meta">
+                  <span class="meta-tag">Travel Moment</span>
+                </div>
+                <h3 class="project-heading">Sunset Perjalanan Mudik</h3>
+                <blockquote class="project-quote">
+                  "Sunset perjalanan saat mudik, mengabadikan hangatnya jalan
+                  pulang."
+                </blockquote>
+              </div>
+            </article>
+
+            <!-- Project 6: Banner YouTube (Creative) -->
+            <article class="project-card reveal" data-category="creative">
+              <div class="project-media-wrapper">
+                <img
+                  src="img/Inside.png"
+                  alt="Desain Banner Menu Makanan"
+                  class="project-media"
+                  loading="lazy"
+                />
+                <span class="card-badge">Branding Media</span>
+                <button
+                  class="zoom-btn"
+                  title="Perbesar Gambar"
+                  data-full="img/yt.jpg"
+                  data-title="Panthone"
+                  data-desc="Desain banner Menu Makanan dengan perpaduan warna dan komposisi modern."
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                </button>
+              </div>
+              <div class="project-details">
+                <div class="project-meta">
+                  <span class="meta-tag">Graphic Design</span>
+                </div>
+                <h3 class="project-heading">Desain Banner YouTube</h3>
+                <blockquote class="project-quote">
+                  "Banner Menu makanan untuk membangun personal branding di
+                  dunia digital."
+                </blockquote>
+              </div>
+            </article>
+
+            <!-- Project 7: Satu Kelas (Community) -->
+            <article class="project-card reveal" data-category="community">
+              <div class="project-media-wrapper">
+                <img
+                  src="img/fotokelas.jpeg"
+                  alt="Kebersamaan Satu Kelas"
+                  class="project-media"
+                  loading="lazy"
+                />
+                <span class="card-badge">Kebersamaan</span>
+                <button
+                  class="zoom-btn"
+                  title="Perbesar Gambar"
+                  data-full="img/oneclass.jpg"
+                  data-title="Satu Kelas Berjuta Cerita"
+                  data-desc="Kamu akan mengerti arti persahabatan ketika mulai merindukan saat kebersamaan."
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                </button>
+              </div>
+              <div class="project-details">
+                <div class="project-meta">
+                  <span class="meta-tag">Persahabatan</span>
+                </div>
+                <h3 class="project-heading">Satu Kelas, Sejuta Cerita</h3>
+                <blockquote class="project-quote">
+                  "Kamu akan mengerti arti persahabatan ketika kamu mulai
+                  merindukan saat kebersamaan."
+                </blockquote>
+              </div>
+            </article>
+
+            <!-- Project 8: KPK Momen (Community) -->
+            <article class="project-card reveal" data-category="community">
+              <div class="project-media-wrapper">
+                <img
+                  src="img/kpk.jpg"
+                  alt="Momen Rekan & Teman"
+                  class="project-media"
+                  loading="lazy"
+                />
+                <span class="card-badge">Kebersamaan</span>
+                <button
+                  class="zoom-btn"
+                  title="Perbesar Gambar"
+                  data-full="img/kpk.jpg"
+                  data-title="Momen Rekan & Seperjuangan"
+                  data-desc="Kompak bersama teman seperjuangan merajut kenangan tak terlupakan."
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                </button>
+              </div>
+              <div class="project-details">
+                <div class="project-meta">
+                  <span class="meta-tag">Teamwork</span>
+                </div>
+                <h3 class="project-heading">Langkah Bersama Seperjuangan</h3>
+                <blockquote class="project-quote">
+                  "Merajut tawa, cerita, dan kebersamaan bersama rekan-rekan
+                  seperjuangan."
+                </blockquote>
+              </div>
+            </article>
+
+            <!-- Project 9: Kopi & Coding (Photography) -->
+            <article class="project-card reveal" data-category="photography">
+              <div class="project-media-wrapper">
+                <img
+                  src="img/Ngopi.jpg"
+                  alt="Secangkir Kopi & Ngoding"
+                  class="project-media"
+                  loading="lazy"
+                />
+                <span class="card-badge">photography</span>
+                <button
+                  class="zoom-btn"
+                  title="Perbesar Gambar"
+                  data-full="img/coffe.jpg"
+                  data-title="Kopi & Kode"
+                  data-desc="Secangkir kopi yang selalu setia menemani proses belajar dan eksplorasi web development."
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                </button>
+              </div>
+              <div class="project-details">
+                <div class="project-meta">
+                  <span class="meta-tag">Lifestyle &amp; Coding</span>
+                </div>
+                <h3 class="project-heading">Secangkir Kopi &amp; Inspirasi</h3>
+                <blockquote class="project-quote">
+                  "Menikmati proses dan menyeduh ide di setiap tegukan."
+                </blockquote>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Journey / Timeline Section -->
+      <section id="journey" class="section journey-section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">MILSTONE &amp; PROGRES</span>
+            <h2 class="section-title">Perjalanan Belajar</h2>
+            <p class="section-subtitle">
+              Langkah demi langkah dalam meniti dunia rekayasa perangkat lunak
+            </p>
+            <div class="section-divider"></div>
+          </div>
+
+          <div class="timeline reveal">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <div class="timeline-badge">Fase Awal</div>
+                <h3 class="timeline-title">
+                  Menemukan Ketertarikan pada Web Development
+                </h3>
+                <p class="timeline-desc">
+                  Mulai berkenalan dengan struktur kode HTML, styling CSS, dan
+                  rasa takjub ketika mampu menampilkan sesuatu yang hidup di
+                  layar peramban.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <div class="timeline-badge">Coding Camp 2025</div>
+                <h3 class="timeline-title">
+                  Mengikuti Coding Camp &amp; Praktek Intensif
+                </h3>
+                <p class="timeline-desc">
+                  Memperdalam fondasi pemrograman web, memahami tata letak
+                  responsif, manipulasi JavaScript DOM, dan membangun portofolio
+                  mandiri.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <div class="timeline-badge">Eksplorasi Kreatif</div>
+                <h3 class="timeline-title">
+                  Mengawinkan Kode dengan Seni Visual
+                </h3>
+                <p class="timeline-desc">
+                  Mengembangkan sense estetika lewat photography, desain poster,
+                  dan seni rupa untuk memperkuat kualitas visual antarmuka
+                  pengguna (UI/UX).
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-marker future"></div>
+              <div class="timeline-card future-card">
+                <div class="timeline-badge future-badge">Masa Depan 🚀</div>
+                <h3 class="timeline-title">
+                  Siap Berkontribusi &amp; Terus Bertumbuh
+                </h3>
+                <p class="timeline-desc">
+                  Terbuka untuk kolaborasi proyek, eksplorasi framework modern,
+                  dan berkontribusi sebagai talenta developer muda Indonesia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-tag">MARI TERHUBUNG</span>
+            <h2 class="section-title">Hubungi Saya</h2>
+            <p class="section-subtitle">
+              Punya proyek, ajakan kolaborasi, atau sekadar ingin menyapa?
+              Silakan kirimkan pesan!
+            </p>
+            <div class="section-divider"></div>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Left Info Cards -->
+            <div class="contact-info-panel reveal">
+              <h3 class="contact-panel-title">
+                Mari Berdiskusi &amp; Berkolaborasi!
+              </h3>
+              <p class="contact-panel-desc">
+                Saya selalu antusias berdiskusi seputar web development, ide
+                kreatif, maupun peluang kerja sama. Jangan ragu untuk
+                menghubungi lewat kontak di bawah:
+              </p>
+
+              <div class="contact-cards">
+                <a href="mailto:Jehanraditya03@gmail.com" class="contact-card">
+                  <div class="contact-icon email">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                      ></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="contact-details">
+                    <span class="contact-title">Kirim Email</span>
+                    <span class="contact-value">Jehanraditya03@gmail.com</span>
+                  </div>
+                </a>
+
+                <div class="contact-card">
+                  <div class="contact-icon location">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                      ></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div class="contact-details">
+                    <span class="contact-title">Lokasi</span>
+                    <span class="contact-value"
+                      >Tangerang, Banten, Indonesia</span
+                    >
+                  </div>
+                </div>
+
+                <a
+                  href="https://wa.me/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-card whatsapp"
+                >
+                  <div class="contact-icon wa">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="contact-details">
+                    <span class="contact-title">WhatsApp</span>
+                    <span class="contact-value"
+                      >Chat Langsung via WhatsApp</span
+                    >
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Contact Form (Formspree / FormSubmit ke Jehanraditya03@gmail.com) -->
+            <div class="contact-form-panel reveal">
+              <form
+                id="contact-form"
+                action="https://formsubmit.co/ajax/Jehanraditya03@gmail.com"
+                method="POST"
+                class="modern-form"
+                novalidate
+              >
+                <!-- Form Configuration: Custom Subject & Anti-spam -->
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="Pesan Baru dari Portofolio Jehan Raditya"
+                />
+                <input type="hidden" name="_template" value="table" />
+                <input type="hidden" name="_captcha" value="false" />
+                <input
+                  type="text"
+                  name="_honey"
+                  style="display: none !important"
+                  tabindex="-1"
+                  autocomplete="off"
+                />
+                <div class="form-group">
+                  <label for="name" class="form-label">Nama Anda</label>
+                  <div class="input-wrapper">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-control"
+                      placeholder="Contoh: Budi Pratama"
+                      required
+                    />
+                    <span class="input-focus-border"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">Email Anda</label>
+                  <div class="input-wrapper">
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      class="form-control"
+                      placeholder="nama@domain.com"
+                      required
+                    />
+                    <span class="input-focus-border"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="subject" class="form-label">Subjek Pesan</label>
+                  <div class="input-wrapper">
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      class="form-control"
+                      placeholder="Diskusi Proyek / Tawaran Kolaborasi"
+                    />
+                    <span class="input-focus-border"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label">Pesan Anda</label>
+                  <div class="input-wrapper">
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="5"
+                      class="form-control textarea"
+                      placeholder="Tuliskan pesan Anda di sini..."
+                      required
+                    ></textarea>
+                    <span class="input-focus-border"></span>
+                  </div>
+                </div>
+
+                <button
+                  type="submit"
+                  id="submit-btn"
+                  class="btn btn-primary btn-block"
+                >
+                  <span class="btn-text">Kirim Pesan Sekarang</span>
+                  <svg
+                    class="send-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+
+                <div
+                  id="form-result"
+                  class="form-alert"
+                  role="alert"
+                  aria-live="polite"
+                ></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Lightbox Modal for Projects -->
+    <div
+      id="lightbox-modal"
+      class="lightbox-modal"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="lightbox-overlay"></div>
+      <div class="lightbox-container">
+        <button
+          id="lightbox-close"
+          class="lightbox-close"
+          aria-label="Tutup Pratinjau"
+        >
+          &times;
+        </button>
+        <div class="lightbox-img-wrapper">
+          <img id="lightbox-img" src="" alt="" />
+        </div>
+        <div class="lightbox-caption">
+          <h4 id="lightbox-title"></h4>
+          <p id="lightbox-desc"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button
+      id="back-to-top"
+      class="back-to-top"
+      aria-label="Kembali ke atas"
+      title="Kembali ke atas"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <line x1="12" y1="19" x2="12" y2="5"></line>
+        <polyline points="5 12 12 5 19 12"></polyline>
+      </svg>
+    </button>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container footer-content">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="brand-title">Jehan Raditya</span>
+            <span class="brand-badge">Portfolio 2025</span>
+          </div>
+          <p class="footer-tagline">
+            Membangun antarmuka web modern dengan semangat belajar tanpa henti,
+            kreativitas, dan secangkir kopi. ☕
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <h4 class="footer-heading">Navigasi Cepat</h4>
+          <ul class="footer-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#skills">Keahlian</a></li>
+            <li><a href="#projects">Karya</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social-group">
+          <h4 class="footer-heading">Media Sosial</h4>
+          <div class="footer-social-icons">
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                ></path>
+              </svg>
+            </a>
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path
+                  d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                ></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="mailto:Jehanraditya03@gmail.com" aria-label="Email">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                ></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <p>© 2025 Jehan Raditya. Hak Cipta Dilindungi.</p>
+          <p class="footer-credit">
+            Dibuat dengan ❤️ &amp; dedikasi untuk masa depan digital.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
